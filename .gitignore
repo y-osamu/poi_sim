@@ -1,17 +1,48 @@
-# Python-generated files
+# =========================
+# Python
+# =========================
 __pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+*.py[cod]
+*.so
 
-# Virtual environments
-.venv
+# =========================
+# Virtual environment
+# =========================
+.venv/
 
-# ===== Jupyter =====
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
 .ipynb_checkpoints/
 
-# data（必要なら）
-data/raw/
-data/processed/
+# =========================
+# Data directories
+# 構造は残す／中身は無視
+# =========================
+
+# raw data
+data/raw/**
+!data/raw/.gitkeep
+!data/raw/**/.gitkeep
+!data/raw/README.md
+
+# processed data
+data/processed/**
+!data/processed/.gitkeep
+!data/processed/**/.gitkeep
+!data/processed/README.md
+
+# =========================
+# Safety net（拡張子ベース）
+# =========================
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.npz
+*.npy
+*.jsonl
+*.zip
