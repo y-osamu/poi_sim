@@ -21,16 +21,26 @@ __pycache__/
 # 構造は残す／中身は無視
 # =========================
 
-# raw data
-data/raw/**
+# raw data（ファイルのみ無視）
+data/raw/*
+data/raw/*/*
+data/raw/*/*/*
+
 !data/raw/.gitkeep
-!data/raw/**/.gitkeep
+!data/raw/*/.gitkeep
+!data/raw/*/*/.gitkeep
+!data/raw/*/*/*/.gitkeep
 !data/raw/README.md
 
-# processed data
-data/processed/**
+# processed data（ファイルのみ無視）
+data/processed/*
+data/processed/*/*
+data/processed/*/*/*
+
 !data/processed/.gitkeep
-!data/processed/**/.gitkeep
+!data/processed/*/.gitkeep
+!data/processed/*/*/.gitkeep
+!data/processed/*/*/*/.gitkeep
 !data/processed/README.md
 
 # =========================
