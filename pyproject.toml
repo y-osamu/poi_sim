@@ -5,9 +5,18 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "contextily>=1.7.0",
+    "geopandas>=1.1.2",
+    "ipywidgets>=8.1.8",
     "matplotlib>=3.10.8",
     "nbdime>=4.0.2",
     "nbstripout>=0.8.2",
+    "numba>=0.63.1",
+    "numpy==2.3.3",
     "pandas>=2.3.3",
     "pyarrow>=22.0.0",
+    "pyproj>=3.7.2",
+    "scipy>=1.10,<2",
+    "shapely>=2.1.2",
+    "tqdm>=4.67.1",
 ]
