@@ -1,0 +1,10 @@
+{
+  "BRANCH_SIZE": 10,
+  "TOP_K": 3,
+  "BASE_SEED": 1000,
+  "START_TIME": "06:00",
+  "END_TIME_ASSIM": "17:00",
+  "EVAL_TIME": "18:00",
+  "ASSIM_MESHES": null,
+  "DEBUG": false
+}
